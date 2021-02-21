@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false
+}
