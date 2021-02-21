@@ -1,7 +1,8 @@
 import React, { ButtonHTMLAttributes, FC } from 'react';
 import cs from 'classnames';
+import { breakpoint, transitionDuration, transitionProperty } from 'src/interface/css';
+
 import styles from './Button.module.scss';
-import { breakpoint } from 'src/interface/css';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   bgColor?: string;
@@ -17,11 +18,11 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   borderBg?: string;
   outline?: boolean;
   transition?: boolean;
-  transitionDuration?: string;
-  transitionProperty?: number;
+  transitionDuration?: transitionDuration;
+  transitionProperty?: transitionProperty;
 }
 
-const Button: FC<ButtonProps> = ({
+export const Button: FC<ButtonProps> = ({
   bgColor = 'white',
   bgHoverColor = 'gray-100',
   textColor = 'black',
@@ -58,5 +59,3 @@ const Button: FC<ButtonProps> = ({
     </button>
   );
 };
-
-export default Button;

@@ -1,8 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import { Container } from 'src/layouts/Container/Container';
+import { Button } from 'src/components/Button/Button';
+
 import styles from 'src/styles/pages/404.module.scss';
-import Button from 'src/components/Button/Button';
 
 const Page404 = () => {
   return (
