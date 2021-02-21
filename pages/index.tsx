@@ -1,3 +1,9 @@
+import { Container } from 'src/layouts/Container/Container';
+
 export default function Home() {
-  return <h1 className="container mx-auto">Home Page</h1>;
+  return (
+    <div>
+      <Container>Home page</Container>
+    </div>
+  );
 }

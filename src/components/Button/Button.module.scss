@@ -1,0 +1,10 @@
+.button {
+  @apply transition-all duration-300;
+}
+
+.button:hover {
+}
+
+.button:focus {
+  @apply outline-none;
+}

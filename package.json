@@ -11,7 +11,7 @@
     "lint": "tsc & eslint --ext .ts,.tsx ."
   },
   "dependencies": {
-    "classname": "^0.0.0",
+    "classnames": "^2.2.6",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1"
