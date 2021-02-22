@@ -1,13 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
-import { Container } from 'src/layouts/Container/Container';
-import { Button } from 'src/components/Button/Button';
-
-import styles from 'src/styles/pages/404.module.scss';
+import { Button, Container } from '@/src/components/ui';
+import styles from '@/src/styles/pages/404.module.scss';
 
 const Page404 = () => {
   return (
-    <Container style={{ width: '304px' }}>
+    <Container>
       <div className={styles.content}>
         <h1>404</h1>
         <span>

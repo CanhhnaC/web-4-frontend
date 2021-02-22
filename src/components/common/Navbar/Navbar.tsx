@@ -1,18 +1,18 @@
 import Link from 'next/link';
 import React, { FC } from 'react';
-import { Search } from 'src/components/Input/Search';
+import { Search } from '../../ui';
 
-import styles from './Header.module.scss';
+import styles from './Navbar.module.scss';
 
-const header_item = [
+const list_items = [
   { name: 'Log in', link: '/login' },
   { name: 'Sign up', link: '/signup' },
   { name: 'Api', link: '/apidocs' },
 ];
 
-export const Header: FC = () => {
+const Navbar: FC = () => {
   return (
-    <div className={styles.header}>
+    <div className={styles.navbar}>
       <div className={styles.logo}>R A W G</div>
       <div className={styles.search}>
         <Search
@@ -24,17 +24,17 @@ export const Header: FC = () => {
         />
       </div>
       <div className={styles.item}>
-        <Navbar listItem={header_item} />
+        <Items listItem={list_items} />
       </div>
     </div>
   );
 };
 
-interface NavbarProps {
+interface ItemsProps {
   listItem?: { link: string; name: string }[];
 }
 
-const Navbar: FC<NavbarProps> = ({ listItem }) => {
+const Items: FC<ItemsProps> = ({ listItem }) => {
   return (
     <div className={styles.navbar}>
       {listItem?.map((i) => (
@@ -45,3 +45,5 @@ const Navbar: FC<NavbarProps> = ({ listItem }) => {
     </div>
   );
 };
+
+export default Navbar;

@@ -1,18 +1,21 @@
-import { AppProps } from 'next/dist/next-server/lib/router/router';
-import Head from 'next/head';
+import { FC } from 'react';
+import { Head } from '@/src/components/common';
+import type { AppProps } from 'next/app';
 
-import 'src/styles/main.css';
+import '@/src/styles/main.css';
+
+const Noop: FC = ({ children }) => <>{children}</>;
 
 function RootApp({ Component, pageProps }: AppProps) {
-  return (
-    <div>
-      <Head>
-        <title>The Biggest Video Game Database on RAWG - Video Game Discovery Service</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+  const Layout = (Component as any).Layout || Noop;
 
-      <Component {...pageProps} />
-    </div>
+  return (
+    <>
+      <Head />
+      <Layout pageProps={pageProps}>
+        <Component {...pageProps} />
+      </Layout>
+    </>
   );
 }
 

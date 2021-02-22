@@ -22,7 +22,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   transitionProperty?: transitionProperty;
 }
 
-export const Button: FC<ButtonProps> = ({
+const Button: FC<ButtonProps> = ({
   bgColor = 'white',
   bgHoverColor = 'gray-100',
   textColor = 'black',
@@ -59,3 +59,4 @@ export const Button: FC<ButtonProps> = ({
     </button>
   );
 };
+export default Button;
