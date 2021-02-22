@@ -1,6 +1,9 @@
 {
   "editor.formatOnSave": true,
   "typescript.referencesCodeLens.enabled": true,
+  "files.associations": {
+    "*.multistage": "dockerfile"
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },

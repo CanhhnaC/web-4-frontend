@@ -1,0 +1,28 @@
+.navbar {
+  @apply flex flex-row justify-between items-center;
+  @apply py-5;
+}
+
+.logo {
+  @apply w-1/12 pr-1 font-bold text-xl;
+}
+
+.search {
+  @apply w-8/12 mx-3;
+}
+
+.item {
+  @apply w-3/12 px-1;
+}
+
+.navbar {
+  @apply text-right space-x-5 uppercase font-bold;
+  a {
+    @apply border-b-2 border-transparent;
+    @apply transition-colors duration-300;
+
+    &:hover {
+      @apply border-white;
+    }
+  }
+}

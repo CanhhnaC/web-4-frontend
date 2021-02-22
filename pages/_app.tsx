@@ -1,8 +1,22 @@
-import { AppProps } from 'next/dist/next-server/lib/router/router';
-import 'src/styles/main.css';
+import { FC } from 'react';
+import { Head } from '@/src/components/common';
+import type { AppProps } from 'next/app';
+
+import '@/src/styles/main.css';
+
+const Noop: FC = ({ children }) => <>{children}</>;
 
 function RootApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  const Layout = (Component as any).Layout || Noop;
+
+  return (
+    <>
+      <Head />
+      <Layout pageProps={pageProps}>
+        <Component {...pageProps} />
+      </Layout>
+    </>
+  );
 }
 
 export default RootApp;
