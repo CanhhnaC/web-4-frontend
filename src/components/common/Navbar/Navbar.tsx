@@ -15,13 +15,7 @@ const Navbar: FC = () => {
     <div className={styles.navbar}>
       <div className={styles.logo}>R A W G</div>
       <div className={styles.search}>
-        <Search
-          paddingX={5}
-          rounded
-          roundedSize="full"
-          transitionProperty="colors"
-          placeholder="Search 509,325 games"
-        />
+        <Search placeholder="Search 509,325 games" />
       </div>
       <div className={styles.item}>
         <Items listItem={list_items} />

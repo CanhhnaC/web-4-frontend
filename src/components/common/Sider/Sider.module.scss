@@ -1,0 +1,49 @@
+.menu {
+  &:hover {
+    .title {
+      color: hsla(0, 0%, 100%, 0.4);
+    }
+    & + .title {
+      cursor: pointer;
+    }
+  }
+}
+
+.title,
+.span {
+  font-size: 24px;
+  @apply font-bold;
+}
+
+.list {
+  @apply my-4 p-0;
+}
+
+.item {
+  @apply mb-2;
+
+  &:hover .wrapper {
+    @apply bg-white text-black;
+  }
+}
+
+.link {
+  font-size: 16px;
+  @apply flex items-center justify-start;
+}
+
+.wrapper {
+  width: 32px;
+  height: 32px;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  @apply flex justify-center items-center mr-2 rounded;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+.label {
+  font-size: 16px;
+}

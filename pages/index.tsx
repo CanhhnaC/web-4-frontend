@@ -3,7 +3,7 @@ import { Container } from '@/src/components/ui';
 
 export default function Home() {
   return (
-    <div className="bg-gray-200 text-white h-screen">
+    <div className="bg-gray-200 text-white h-full">
       <Container>
         <Navbar />
         <div className="flex flex-row justify-between">

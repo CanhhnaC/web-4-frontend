@@ -1,10 +1,22 @@
-.search {
-  color: hsla(0, 0%, 100%, 0.6);
+.input {
   background-color: hsla(0, 0%, 100%, 0.16);
+  color: hsla(0, 0%, 100%, 0.6);
+  @apply rounded-full pr-3 pl-10 py-2 appearance-none w-full transition duration-150 ease-in-out p-10;
 }
 
-.search:hover {
+.input:hover {
+  @apply bg-white text-black;
 }
 
-.search:focus {
+.input:focus {
+  @apply bg-white text-black outline-none shadow-outline-normal;
+}
+
+.iconContainer {
+  @apply absolute inset-y-0 left-0 pl-3 flex items-center;
+}
+
+.icon {
+  color: hsla(0, 0%, 100%, 0.6);
+  @apply h-4 w-4;
 }
