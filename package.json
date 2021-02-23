@@ -8,7 +8,8 @@
     "start": "next start",
     "format": "prettier --write **/*.{js,ts,tsx}",
     "type-check": "tsc --pretty --noEmit",
-    "lint": "tsc & eslint --ext .ts,.tsx ."
+    "lint": "tsc & eslint --ext .ts,.tsx .",
+    "analyze": "BUNDLE_ANALYZE=both yarn build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.34",
@@ -17,10 +18,14 @@
     "classnames": "2.2.6",
     "next": "10.0.7",
     "next-seo": "^4.20.0",
+    "postcss": "8.2.6",
+    "postcss-nesting": "7.0.1",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "tailwindcss": "2.0.3"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^10.0.7",
     "@types/classnames": "2.2.11",
     "@types/node": "14.14.31",
     "@types/react": "17.0.2",
@@ -36,14 +41,11 @@
     "eslint-plugin-react-hooks": "4.2.0",
     "husky": "5.0.9",
     "lint-staged": "10.5.4",
-    "postcss": "8.2.6",
     "postcss-flexbugs-fixes": "5.0.2",
     "postcss-import": "14.0.0",
-    "postcss-nesting": "7.0.1",
     "postcss-preset-env": "6.7.0",
     "prettier": "2.2.1",
     "sass": "1.32.8",
-    "tailwindcss": "2.0.3",
     "typescript": "4.1.5"
   },
   "husky": {
