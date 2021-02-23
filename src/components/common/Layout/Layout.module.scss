@@ -1,0 +1,11 @@
+.root {
+  @apply bg-gray-200 text-white h-full;
+}
+
+.main {
+  @apply flex flex-row justify-between;
+}
+
+.content {
+  @apply w-10/12;
+}

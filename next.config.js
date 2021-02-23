@@ -4,7 +4,7 @@ const bundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = bundleAnalyzer({
   images: {
-    domains: ['media.rawg.io'],
+    domains: ['media.rawg.io', 'i.picsum.photos'],
   },
   i18n: {
     locales: ['en-US', 'es'],
