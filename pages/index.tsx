@@ -1,7 +1,11 @@
-import { Layout } from '@/src/components/common';
+import { Layout, MainContent } from '@/src/components/common';
 
 export default function Home() {
-  return <div className="bg-red-500">Hello World</div>;
+  return (
+    <MainContent heading="New and trending" subtitle="Based on player counts and release date">
+      <div className="bg-red-500">Hello World</div>
+    </MainContent>
+  );
 }
 
 Home.Layout = Layout;

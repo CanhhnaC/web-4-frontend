@@ -1,61 +1,26 @@
 import React, { ButtonHTMLAttributes, FC } from 'react';
-import cs from 'classnames';
-import { breakpoint, transitionDuration, transitionProperty } from 'src/interface/css';
-
-import styles from './Button.module.scss';
+import cn from 'classnames';
+import s from './Button.module.scss';
+import Icon from '../Icon';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  bgColor?: string;
-  bgHoverColor?: string;
-  textColor?: string;
-  textHoverColor?: string;
-  paddingX?: string;
-  paddingY?: string;
-  rounded?: boolean;
-  roundedSize?: breakpoint;
-  border?: boolean;
-  borderWidth?: string;
-  borderBg?: string;
-  outline?: boolean;
-  transition?: boolean;
-  transitionDuration?: transitionDuration;
-  transitionProperty?: transitionProperty;
+  loading?: boolean;
+  disabled?: boolean;
+  icon?: IconProp;
 }
 
-const Button: FC<ButtonProps> = ({
-  bgColor = 'white',
-  bgHoverColor = 'gray-100',
-  textColor = 'black',
-  textHoverColor = 'black',
-  paddingX = 2,
-  paddingY = 2,
-  rounded = false,
-  roundedSize = 'md',
-  border = false,
-  borderWidth = '2',
-  borderBg = 'transparent',
-  outline = false,
-  transition = true,
-  transitionDuration = '500',
-  transitionProperty = 'all',
-  children,
-  ...rest
-}) => {
+const Button: FC<ButtonProps> = (props) => {
+  const { disabled, loading, icon, children, ...rest } = props;
+  const rootClassName = cn(s.root, {
+    [s.loading]: loading,
+    [s.disabled]: disabled,
+  });
+
   return (
-    <button
-      className={cs(
-        styles.button,
-        `bg-${bgColor} hover:bg-${bgHoverColor}`,
-        `text-${textColor} hover:text-${textHoverColor}`,
-        `px-${paddingX} py-${paddingY}`,
-        { [`rounded-${roundedSize}`]: rounded },
-        { [`border-${borderWidth} border-${borderBg}`]: border },
-        { [`duration-${transitionDuration} transition-${transitionProperty}`]: transition },
-        { 'focus:outline-none': !outline },
-      )}
-      {...rest}
-    >
-      {children}
+    <button className={rootClassName} {...rest}>
+      {children && <span>{children}</span>}
+      {icon && <Icon icon={icon} spin={loading} />}
     </button>
   );
 };

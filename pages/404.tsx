@@ -14,9 +14,7 @@ const Page404 = () => {
           We couldn&apos;t find that page.
         </span>
         <Link href="/">
-          <Button rounded border>
-            Main page
-          </Button>
+          <Button>Main page</Button>
         </Link>
       </div>
       <div className={styles.wrapper}>
