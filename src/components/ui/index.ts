@@ -4,3 +4,4 @@ export { default as Select } from './Select';
 export { default as Container } from './Container';
 export { default as Icon } from './Icon';
 export { default as Text } from './Text';
+export { default as Platform } from './Platform';

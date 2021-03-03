@@ -17,7 +17,7 @@ const Content: React.FC<Props> = ({ className, heading, subtitle, children }) =>
         <Text variant="heading" className="font-bold">
           {heading}
         </Text>
-        <Text>{subtitle}</Text>
+        <Text className="m-0">{subtitle}</Text>
       </div>
       <div>{children}</div>
     </>

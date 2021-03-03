@@ -11,7 +11,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const Button: FC<ButtonProps> = (props) => {
-  const { disabled, loading, icon, children, ...rest } = props;
+  const { disabled = false, loading = false, icon, children, ...rest } = props;
   const rootClassName = cn(s.root, {
     [s.loading]: loading,
     [s.disabled]: disabled,

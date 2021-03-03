@@ -1,0 +1,402 @@
+{
+  "id": 303576,
+  "slug": "vampire-the-masquerade-bloodlines-2",
+  "name": "Vampire: The Masquerade - Bloodlines 2",
+  "name_original": "Vampire: The Masquerade - Bloodlines 2",
+  "description": "<p>Sired in an act of vampire insurrection, your existence ignites the war for Seattle&#39;s blood trade. Enter uneasy alliances with the creatures who control the city and uncover the sprawling conspiracy which plunged Seattle into a bloody civil war between powerful vampire factions.<br />\n♞Become the Ultimate Vampire<br />\nImmerse yourself in the World of Darkness and live out your vampire fantasy in a city filled with intriguing characters that react to your choices. You and your unique disciplines are a weapon in our forward-driving, fast-moving, melee-focussed combat system. Your power will grow as you advance, but remember to uphold the Masquerade and guard your humanity... or face the consequences.<br />\n♝Descend into Seattle’s Dark Heart and Survive the Vampire Elite<br />\nSeattle has always been run by vampires. Hunt your prey across Seattle locations faithfully reimagined in the World of Darkness. Meet the old blood founders present since the city’s birth and the new blood steering the tech money redefining the city. Everyone has hidden agendas - so choose your allies wisely.<br />\n♚Enter into Uneasy Alliances<br />\nChoose a side among competing factions, each with their own unique traits and stories, in the war for Seattle’s blood trade. The world will judge you by the company you keep, but remember no one’s hands stay clean forever.<br />\n♛Experience the Story<br />\nWritten by the creative mind behind the original Bloodlines, Vampire: The Masquerade® - Bloodlines™ 2 brings the ambitions of the first game to life and sees the return of a few fan favorite characters.</p>",
+  "metacritic": null,
+  "metacritic_platforms": [],
+  "released": null,
+  "tba": true,
+  "updated": "2021-02-23T22:31:23",
+  "background_image": "https://media.rawg.io/media/games/fb5/fb5e0fdb1f6bb0e8b5da5d08bb83a5fc.jpg",
+  "background_image_additional": "https://media.rawg.io/media/screenshots/43c/43c0e83cc70583592b6eb7a7ba78e9b9.jpg",
+  "website": "https://www.bloodlines2.com",
+  "rating": 3.79,
+  "rating_top": 5,
+  "ratings": [
+    { "id": 5, "title": "exceptional", "count": 19, "percent": 45.24 },
+    { "id": 4, "title": "recommended", "count": 11, "percent": 26.19 },
+    { "id": 1, "title": "skip", "count": 8, "percent": 19.05 },
+    { "id": 3, "title": "meh", "count": 4, "percent": 9.52 }
+  ],
+  "reactions": {},
+  "added": 1018,
+  "added_by_status": { "yet": 133, "owned": 200, "beaten": 2, "toplay": 678, "dropped": 2, "playing": 3 },
+  "playtime": 329,
+  "screenshots_count": 16,
+  "movies_count": 0,
+  "creators_count": 11,
+  "achievements_count": 0,
+  "parent_achievements_count": 0,
+  "reddit_url": "",
+  "reddit_name": "",
+  "reddit_description": "",
+  "reddit_logo": "",
+  "reddit_count": 0,
+  "twitch_count": 11,
+  "youtube_count": 309509,
+  "reviews_text_count": 1,
+  "ratings_count": 41,
+  "suggestions_count": 567,
+  "alternative_names": ["vampire killer"],
+  "metacritic_url": "",
+  "parents_count": 0,
+  "additions_count": 0,
+  "game_series_count": 1,
+  "user_game": null,
+  "reviews_count": 42,
+  "promo": "e3",
+  "saturated_color": "0f0f0f",
+  "dominant_color": "0f0f0f",
+  "parent_platforms": [
+    { "platform": { "id": 1, "name": "PC", "slug": "pc" } },
+    { "platform": { "id": 2, "name": "PlayStation", "slug": "playstation" } },
+    { "platform": { "id": 3, "name": "Xbox", "slug": "xbox" } }
+  ],
+  "platforms": [
+    {
+      "platform": {
+        "id": 4,
+        "name": "PC",
+        "slug": "pc",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 302244,
+        "image_background": "https://media.rawg.io/media/games/328/3283617cb7d75d67257fc58339188742.jpg"
+      },
+      "released_at": null,
+      "requirements": {
+        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> TBC<br></li><li><strong>Processor:</strong> TBC<br></li><li><strong>Memory:</strong> TBC MB RAM<br></li><li><strong>Graphics:</strong> TBC<br></li><li><strong>Storage:</strong> TBC MB available space<br></li><li><strong>Sound Card:</strong> TBC</li></ul>"
+      }
+    },
+    {
+      "platform": {
+        "id": 18,
+        "name": "PlayStation 4",
+        "slug": "playstation4",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 5626,
+        "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+      },
+      "released_at": null,
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 187,
+        "name": "PlayStation 5",
+        "slug": "playstation5",
+        "image": null,
+        "year_end": null,
+        "year_start": 2020,
+        "games_count": 167,
+        "image_background": "https://media.rawg.io/media/games/a35/a359074cde22a4b23c54db44a592dc41.jpg"
+      },
+      "released_at": null,
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 186,
+        "name": "Xbox Series S/X",
+        "slug": "xbox-series-x",
+        "image": null,
+        "year_end": null,
+        "year_start": 2020,
+        "games_count": 142,
+        "image_background": "https://media.rawg.io/media/games/9f1/9f1891779cb20f44de93cef33b067e50.jpg"
+      },
+      "released_at": null,
+      "requirements": {}
+    },
+    {
+      "platform": {
+        "id": 1,
+        "name": "Xbox One",
+        "slug": "xbox-one",
+        "image": null,
+        "year_end": null,
+        "year_start": null,
+        "games_count": 4297,
+        "image_background": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"
+      },
+      "released_at": null,
+      "requirements": {}
+    }
+  ],
+  "stores": [
+    {
+      "id": 304767,
+      "url": "https://store.steampowered.com/app/532790/",
+      "store": {
+        "id": 1,
+        "name": "Steam",
+        "slug": "steam",
+        "domain": "store.steampowered.com",
+        "games_count": 48790,
+        "image_background": "https://media.rawg.io/media/games/929/9295e55ce69cf5337c567983cf8b4137.jpeg"
+      }
+    },
+    {
+      "id": 305368,
+      "url": "https://www.epicgames.com/store/en-us/product/vampire-the-masquerade-bloodlines-2/home?sessioninvalidated=true&lang=en-us",
+      "store": {
+        "id": 11,
+        "name": "Epic Games",
+        "slug": "epic-games",
+        "domain": "epicgames.com",
+        "games_count": 358,
+        "image_background": "https://media.rawg.io/media/games/2ad/2ad87a4a69b1104f02435c14c5196095.jpg"
+      }
+    },
+    {
+      "id": 304759,
+      "url": "http://www.gog.com/game/vampire_the_masquerade_bloodlines_2",
+      "store": {
+        "id": 5,
+        "name": "GOG",
+        "slug": "gog",
+        "domain": "gog.com",
+        "games_count": 3120,
+        "image_background": "https://media.rawg.io/media/games/9dd/9ddabb34840ea9227556670606cf8ea3.jpg"
+      }
+    }
+  ],
+  "developers": [
+    {
+      "id": 1586,
+      "name": "Hardsuit Labs",
+      "slug": "hardsuit-labs",
+      "games_count": 3,
+      "image_background": "https://media.rawg.io/media/screenshots/8b5/8b56ac3334b873450b1ad85462b74c61.jpg"
+    }
+  ],
+  "genres": [
+    {
+      "id": 4,
+      "name": "Action",
+      "slug": "action",
+      "games_count": 109434,
+      "image_background": "https://media.rawg.io/media/games/b7b/b7b8381707152afc7d91f5d95de70e39.jpg"
+    },
+    {
+      "id": 5,
+      "name": "RPG",
+      "slug": "role-playing-games-rpg",
+      "games_count": 34030,
+      "image_background": "https://media.rawg.io/media/games/14a/14a83c56ff668baaced6e8c8704b6391.jpg"
+    }
+  ],
+  "tags": [
+    {
+      "id": 31,
+      "name": "Singleplayer",
+      "slug": "singleplayer",
+      "language": "eng",
+      "games_count": 102998,
+      "image_background": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg"
+    },
+    {
+      "id": 40847,
+      "name": "Steam Achievements",
+      "slug": "steam-achievements",
+      "language": "eng",
+      "games_count": 20786,
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Atmospheric",
+      "slug": "atmospheric",
+      "language": "eng",
+      "games_count": 11657,
+      "image_background": "https://media.rawg.io/media/games/929/9295e55ce69cf5337c567983cf8b4137.jpeg"
+    },
+    {
+      "id": 40836,
+      "name": "Full controller support",
+      "slug": "full-controller-support",
+      "language": "eng",
+      "games_count": 9751,
+      "image_background": "https://media.rawg.io/media/games/ed5/ed5b7d01dd68fd8d598c91ad61f153af.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Great Soundtrack",
+      "slug": "great-soundtrack",
+      "language": "eng",
+      "games_count": 3109,
+      "image_background": "https://media.rawg.io/media/games/198/1988a337305e008b41d7f536ce9b73f6.jpg"
+    },
+    {
+      "id": 24,
+      "name": "RPG",
+      "slug": "rpg",
+      "language": "eng",
+      "games_count": 11172,
+      "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+    },
+    {
+      "id": 118,
+      "name": "Story Rich",
+      "slug": "story-rich",
+      "language": "eng",
+      "games_count": 8907,
+      "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Open World",
+      "slug": "open-world",
+      "language": "eng",
+      "games_count": 3448,
+      "image_background": "https://media.rawg.io/media/games/1bb/1bb86c35ffa3eb0d299b01a7c65bf908.jpg"
+    },
+    {
+      "id": 8,
+      "name": "First-Person",
+      "slug": "first-person",
+      "language": "eng",
+      "games_count": 11004,
+      "image_background": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Horror",
+      "slug": "horror",
+      "language": "eng",
+      "games_count": 19519,
+      "image_background": "https://media.rawg.io/media/games/174/174fabfca02d5730531bab2153a7dfcb.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Gore",
+      "slug": "gore",
+      "language": "eng",
+      "games_count": 3621,
+      "image_background": "https://media.rawg.io/media/games/dbe/dbeeb30e02b59f55c4d8cf4f103a83b9.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Violent",
+      "slug": "violent",
+      "language": "eng",
+      "games_count": 4271,
+      "image_background": "https://media.rawg.io/media/games/07a/07a74470a2618fd71945db0619602baf.jpg"
+    },
+    {
+      "id": 300,
+      "name": "Vampire",
+      "slug": "vampire",
+      "language": "eng",
+      "games_count": 701,
+      "image_background": "https://media.rawg.io/media/screenshots/276/2765d6d02b9d2fc49bd918f64ca94171.jpg"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 3656,
+      "name": "Paradox Interactive",
+      "slug": "paradox-interactive",
+      "games_count": 267,
+      "image_background": "https://media.rawg.io/media/screenshots/c7f/c7fdd3f7d109c253002e670a5d18f6b4.jpg"
+    }
+  ],
+  "esrb_rating": null,
+  "clip": {
+    "clip": "https://media.rawg.io/media/stories-640/80b/80bbb6049233cf75621004e9be886715.mp4",
+    "clips": {
+      "320": "https://media.rawg.io/media/stories-320/c66/c6692dc6b3d737d6e483b8ce64390b96.mp4",
+      "640": "https://media.rawg.io/media/stories-640/80b/80bbb6049233cf75621004e9be886715.mp4",
+      "full": "https://media.rawg.io/media/stories/b3b/b3b872ae7c4e95cfd6d999b2bda384e8.mp4"
+    },
+    "video": "OkcNFoW5dzs",
+    "preview": "https://media.rawg.io/media/stories-previews/30f/30f79646f4ddaa689a5f682042d5526a.jpg"
+  },
+  "description_raw": "Sired in an act of vampire insurrection, your existence ignites the war for Seattle's blood trade. Enter uneasy alliances with the creatures who control the city and uncover the sprawling conspiracy which plunged Seattle into a bloody civil war between powerful vampire factions.\r\n♞Become the Ultimate Vampire\r\nImmerse yourself in the World of Darkness and live out your vampire fantasy in a city filled with intriguing characters that react to your choices. You and your unique disciplines are a weapon in our forward-driving, fast-moving, melee-focussed combat system. Your power will grow as you advance, but remember to uphold the Masquerade and guard your humanity... or face the consequences.\r\n♝Descend into Seattle’s Dark Heart and Survive the Vampire Elite\r\nSeattle has always been run by vampires. Hunt your prey across Seattle locations faithfully reimagined in the World of Darkness. Meet the old blood founders present since the city’s birth and the new blood steering the tech money redefining the city. Everyone has hidden agendas - so choose your allies wisely.\r\n♚Enter into Uneasy Alliances\r\nChoose a side among competing factions, each with their own unique traits and stories, in the war for Seattle’s blood trade. The world will judge you by the company you keep, but remember no one’s hands stay clean forever.\r\n♛Experience the Story\r\nWritten by the creative mind behind the original Bloodlines, Vampire: The Masquerade® - Bloodlines™ 2 brings the ambitions of the first game to life and sees the return of a few fan favorite characters.",
+  "description_is_protected": false,
+  "collections_count": 1,
+  "discussions_count": 2,
+  "imgur_count": 0,
+  "files_count": null,
+  "charts": {
+    "genre": { "name": "RPG", "position": 382, "change": "equal" },
+    "year": { "year": 2022, "change": "new", "position": 1 }
+  },
+  "seo_title": "Vampire: The Masquerade - Bloodlines 2 - release date, videos, screenshots, reviews on RAWG",
+  "seo_description": "Sired in an act of vampire insurrection, your existence ignites the war for Seattle's blood trade. Enter uneasy alliances with…",
+  "seo_h1": "Vampire: The Masquerade - Bloodlines 2",
+  "seo_titles": {
+    "screenshots": "Vampire: The Masquerade - Bloodlines 2 screenshots • RAWG",
+    "imgur": "Vampire: The Masquerade - Bloodlines 2 images • RAWG",
+    "twitch": "Vampire: The Masquerade - Bloodlines 2 streams from Twitch • RAWG",
+    "youtube": "Vampire: The Masquerade - Bloodlines 2 videos • RAWG",
+    "reviews": "Vampire: The Masquerade - Bloodlines 2 reviews • RAWG",
+    "posts": "Vampire: The Masquerade - Bloodlines 2 comments • RAWG",
+    "collections": "Collections with Vampire: The Masquerade - Bloodlines 2 • RAWG",
+    "suggestions": "Games like Vampire: The Masquerade - Bloodlines 2 • Games similar to Vampire: The Masquerade - Bloodlines 2 • RAWG",
+    "achievements": "Vampire: The Masquerade - Bloodlines 2 achievements • RAWG",
+    "reddit": "Vampire: The Masquerade - Bloodlines 2 posts from Reddit • RAWG",
+    "team": "Vampire: The Masquerade - Bloodlines 2 created by • RAWG",
+    "cheats": "Vampire: The Masquerade - Bloodlines 2",
+    "demos": "Vampire: The Masquerade - Bloodlines 2",
+    "patches": "Vampire: The Masquerade - Bloodlines 2",
+    "review": "Vampire: The Masquerade - Bloodlines 2"
+  },
+  "seo_descriptions": {
+    "screenshots": "Vampire: The Masquerade - Bloodlines 2 screenshots on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "imgur": "Vampire: The Masquerade - Bloodlines 2 images on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "twitch": "Vampire: The Masquerade - Bloodlines 2 streams on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "youtube": "Vampire: The Masquerade - Bloodlines 2 videos on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "reviews": "Vampire: The Masquerade - Bloodlines 2 reviews on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "posts": "Vampire: The Masquerade - Bloodlines 2 comments on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "collections": "Vampire: The Masquerade - Bloodlines 2 in collections on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "suggestions": "Games similar to Vampire: The Masquerade - Bloodlines 2 on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "achievements": "Vampire: The Masquerade - Bloodlines 2 achievements on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "reddit": "Vampire: The Masquerade - Bloodlines 2 Posts from Reddit on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "team": "Vampire: The Masquerade - Bloodlines 2 team on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "cheats": "Vampire: The Masquerade - Bloodlines 2 cheats on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "demos": "Vampire: The Masquerade - Bloodlines 2 demos on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "patches": "Vampire: The Masquerade - Bloodlines 2 patches on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences",
+    "review": "Vampire: The Masquerade - Bloodlines 2 review on RAWG ✔ Video game discovery site ✔ The most comprehensive database that is powered by personal player experiences"
+  },
+  "seo_keywords": {
+    "screenshots": "vampire: the masquerade - bloodlines 2",
+    "imgur": "vampire: the masquerade - bloodlines 2",
+    "twitch": "vampire: the masquerade - bloodlines 2",
+    "youtube": "vampire: the masquerade - bloodlines 2",
+    "reviews": "vampire: the masquerade - bloodlines 2",
+    "posts": "vampire: the masquerade - bloodlines 2",
+    "collections": "vampire: the masquerade - bloodlines 2",
+    "suggestions": "vampire: the masquerade - bloodlines 2",
+    "achievements": "vampire: the masquerade - bloodlines 2",
+    "reddit": "vampire: the masquerade - bloodlines 2",
+    "team": "vampire: the masquerade - bloodlines 2",
+    "cheats": "vampire: the masquerade - bloodlines 2",
+    "demos": "vampire: the masquerade - bloodlines 2",
+    "patches": "vampire: the masquerade - bloodlines 2",
+    "review": "vampire: the masquerade - bloodlines 2"
+  },
+  "seo_h1s": {
+    "screenshots": "Vampire: The Masquerade - Bloodlines 2 screenshots",
+    "imgur": "Vampire: The Masquerade - Bloodlines 2 images",
+    "twitch": "Vampire: The Masquerade - Bloodlines 2 streams",
+    "youtube": "Vampire: The Masquerade - Bloodlines 2 videos",
+    "reviews": "Vampire: The Masquerade - Bloodlines 2 reviews",
+    "posts": "Vampire: The Masquerade - Bloodlines 2 comments",
+    "collections": "Collections with Vampire: The Masquerade - Bloodlines 2",
+    "suggestions": "Games like Vampire: The Masquerade - Bloodlines 2",
+    "achievements": "Vampire: The Masquerade - Bloodlines 2 achievements",
+    "reddit": "Vampire: The Masquerade - Bloodlines 2 posts",
+    "team": "Vampire: The Masquerade - Bloodlines 2 created by",
+    "cheats": "Vampire: The Masquerade - Bloodlines 2",
+    "demos": "Vampire: The Masquerade - Bloodlines 2",
+    "patches": "Vampire: The Masquerade - Bloodlines 2",
+    "review": "Vampire: The Masquerade - Bloodlines 2"
+  },
+  "editorial_review": false
+}
