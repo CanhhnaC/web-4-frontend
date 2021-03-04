@@ -8,19 +8,24 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   loading?: boolean;
   disabled?: boolean;
   icon?: IconProp;
+  className?: string;
 }
 
 const Button: FC<ButtonProps> = (props) => {
-  const { disabled = false, loading = false, icon, children, ...rest } = props;
-  const rootClassName = cn(s.root, {
-    [s.loading]: loading,
-    [s.disabled]: disabled,
-  });
+  const { disabled = false, loading = false, icon, children, className, ...rest } = props;
+  const rootClassName = cn(
+    s.root,
+    {
+      [s.loading]: loading,
+      [s.disabled]: disabled,
+    },
+    className,
+  );
 
   return (
     <button className={rootClassName} {...rest}>
-      {children && <span>{children}</span>}
       {icon && <Icon icon={icon} spin={loading} />}
+      {children && <span>{children}</span>}
     </button>
   );
 };

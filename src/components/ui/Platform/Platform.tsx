@@ -1,10 +1,9 @@
-import { faSquare } from '@fortawesome/free-solid-svg-icons';
-import { faWindows, faPlaystation, faXbox } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
+import { faWindows, faPlaystation, faXbox } from '@fortawesome/free-brands-svg-icons';
 import Icon from '../Icon';
-
+export type SlugPlatform = 'pc' | 'playstation' | 'xbox';
 interface Props {
-  slug: 'pc' | 'playstation' | 'xbox';
+  slug: SlugPlatform;
 }
 
 const Platform: React.FC<Props> = ({ slug }) => {

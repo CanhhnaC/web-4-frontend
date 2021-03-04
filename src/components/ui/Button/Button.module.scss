@@ -1,8 +1,7 @@
 .root {
-  font-size: 12px;
   color: white;
   background-color: hsla(0, 0%, 100%, 0.1);
-  @apply space-x-1 px-1 inline-flex items-center rounded transition ease-in-out duration-150 shadow-sm text-center justify-center border border-transparent;
+  @apply space-x-2 px-1 inline-flex items-center rounded transition ease-in-out duration-150 shadow-sm text-center justify-center border border-transparent;
 }
 
 .root:hover {

@@ -1,4 +1,20 @@
 .root {
-  width: 300px;
+  width: 400px;
   @apply rounded-lg bg-accents-0;
+}
+
+.card_about {
+  @apply my-2;
+  & > li {
+    border-color: hsla(0, 0%, 100%, 0.07);
+    @apply flex justify-between border-b py-2;
+
+    span {
+      @apply text-sm;
+    }
+
+    & > span:first-child {
+      color: hsla(0, 0%, 100%, 0.4);
+    }
+  }
 }
