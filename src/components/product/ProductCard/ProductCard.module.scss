@@ -1,6 +1,10 @@
 .root {
   width: 400px;
-  @apply rounded-lg bg-accents-0;
+  @apply rounded-lg bg-accents-0 transition-transform duration-200 ease-in-out;
+
+  &:hover {
+    @apply scale-105 transform;
+  }
 }
 
 .card_about {

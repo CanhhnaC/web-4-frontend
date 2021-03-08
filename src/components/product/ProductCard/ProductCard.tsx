@@ -14,8 +14,8 @@ import { DATE_TIME_TEXT } from '@/src/constant';
 const ProductCard = () => {
   return (
     <div className={s.root}>
-      <div className="">
-        <Image src={data.background_image} alt={data.name} width={400} height={250} />
+      <div className="relative h-64 w-full">
+        <Image src={data.background_image} alt={data.name} layout="fill" objectFit="cover" className="rounded-t" />
       </div>
       <div className="p-3 pb-4">
         <div className="flex space-x-2 items-center">
